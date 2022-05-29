@@ -6,8 +6,54 @@
 h1,h2,h3
 {
 	font-family: arial;
+	text-align: center;
+}
+header
+{
 }
 header img
 {
 	width: 100vw;
+}
+section
+{
+	margin: 2vw 2vw;
+
+}
+.articleArea
+{
+	display: flex;
+	margin: 2vw 0vw;
+	align-content: center;
+	justify-content: space-between;
+}
+section header
+{
+	align-items: flex-start;
+}
+section article
+{
+	width: 20vw;
+	padding: 1vw;
+	background-color: #D3D3D3;
+	box-shadow: 1vw 1vw 1vw black;
+}
+ul
+{
+	list-style-type: none;
+}
+ul a
+{
+	color: white;
+	text-decoration: none;
+}
+footer
+
+{
+	background-color: grey;
+	padding: 1vw;
+}
+footer a:hover
+{
+	color: black;
 }
